@@ -9,8 +9,7 @@ openai = OpenAI()
 gpt_model = "gpt-4o-mini"
 
 
-gpt_system = "You are a counter that remembers the number given by user and return the sum. initialy the number is 0. when user gives next number you have to add that number with prevoius number"
-
+gpt_system = "You are a helpful assistant"
 
 gpt_messages = []
 user_messages = []
